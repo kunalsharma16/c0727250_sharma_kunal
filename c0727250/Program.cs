@@ -8,8 +8,22 @@ namespace c0727250
 {
     class Program
     {
-        static void Main(string[] args)
+        class Countryside
         {
+
+        } 
+
+        class Village
+        {
+
+            Village PreviousVillage;
+            Village NextVillage;
+            String VillageName;
+            bool isAstrildeHere = false;
+            public Village () { } 
+
+
+        }
         }
     }
 }
